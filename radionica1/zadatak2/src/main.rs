@@ -17,7 +17,7 @@ fn main() {
 
     let number: i32 = input_string.trim().parse().unwrap();
 
-    let result = factor(number);
+    let result: i32 = factor(number);
     
     println!("Result is {}", result);
 }
